@@ -1,0 +1,46 @@
+.formContainer {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 25px;
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  form {
+    width: 95%;
+    margin: auto;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+  }
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    color: #ffff;
+    background-color: rgb(11, 161, 161);
+    font-weight: 700;
+    &:hover {
+      transition: 0.5s;
+      background-color: teal;
+    }
+  }
+}

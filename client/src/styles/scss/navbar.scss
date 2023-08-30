@@ -1,0 +1,22 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  button {
+    padding: 10px 12px;
+    cursor: pointer;
+    border: none;
+    color: #ffff;
+    background-color: rgb(11, 161, 161);
+    border-radius: 4px;
+    font-weight: 700;
+    &:hover {
+      transition: 0.5s;
+      background-color: teal;
+    }
+  }
+}
